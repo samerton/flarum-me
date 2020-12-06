@@ -1,0 +1,21 @@
+{
+    "name": "samerton/flarum-me",
+    "description": "Adds a /me endpoint to retrieve current user info",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
+    },
+    "autoload": {
+        "psr-4": {"Samerton\\FlarumMe\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Flarum Me",
+            "icon": {
+                "name": "fas fa-user",
+                "backgroundColor": "#238c59",
+                "color": "#fff"
+            }
+        }
+    }
+}
